@@ -1,0 +1,48 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "type": "text",
+      "version": 318,
+      "versionNonce": 1923421212,
+      "isDeleted": false,
+      "id": "NGVlxs0VN4kO49qcPqfVb",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 346,
+      "y": 224,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 1026.6590576171875,
+      "height": 125,
+      "seed": 870413303,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1696425863193,
+      "link": null,
+      "locked": false,
+      "fontSize": 20,
+      "fontFamily": 1,
+      "text": "NUnit - JUnit (Kent Beck) - Still great, and gets better all the time.\nMSTest -> Now - MSTest is great. No problems. \nxUnit -> Most documentation on Microsoft's site uses this. This is what Microsoft uses to test .NET.\n        -> xUnit seems to have a richer ecosystem of extensions and stuff.\n",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "NUnit - JUnit (Kent Beck) - Still great, and gets better all the time.\nMSTest -> Now - MSTest is great. No problems. \nxUnit -> Most documentation on Microsoft's site uses this. This is what Microsoft uses to test .NET.\n        -> xUnit seems to have a richer ecosystem of extensions and stuff.\n",
+      "lineHeight": 1.25,
+      "baseline": 118
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

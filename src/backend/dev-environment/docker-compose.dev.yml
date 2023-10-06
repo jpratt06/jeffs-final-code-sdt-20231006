@@ -1,0 +1,18 @@
+services:
+  db:
+    image: postgres:15.2-bullseye
+    environment:
+      POSTGRES_PASSWORD: password
+    ports:
+      - 5439:5432
+  desktop-support-responder:
+    image: jeffrygonzalez/desktop-support:latest
+    ports: 
+      - 1341:80
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 9090:8080
+    environment:
+      ADMINER_DESIGN: dracula

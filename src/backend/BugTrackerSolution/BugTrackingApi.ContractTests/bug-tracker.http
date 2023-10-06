@@ -1,0 +1,24 @@
+@cert = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImVuaXRoIiwic3ViIjoiZW5pdGgiLCJqdGkiOiJjZWY2NjMwNiIsImF1ZCI6WyJodHRwOi8vbG9jYWxob3N0OjIwMzY5IiwiaHR0cHM6Ly9sb2NhbGhvc3Q6MCIsImh0dHA6Ly9sb2NhbGhvc3Q6MTMzNyJdLCJuYmYiOjE2OTY1MDg5MTYsImV4cCI6MTcwNDQ1NzcxNiwiaWF0IjoxNjk2NTA4OTE3LCJpc3MiOiJkb3RuZXQtdXNlci1qd3RzIn0.Q3Nhbwwave0U_1i5OE2Uv2zn4O-EsgZSk9f8vaydS38
+@host = http://localhost:1337/
+POST {{host}}catalog/excel/bugs
+Content-Type: application/json
+Authorization: Bearer {{cert}}
+
+
+{
+  "narrative": "Can't Sum up a Column",
+  "description": "When I sum up a column, it shows ##### in the total"
+}
+
+
+### Get the thing
+
+GET 	http://localhost:1337/catalog/excel/bugs/a-different-description
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImplZmZyeWdvbnphbGV6Iiwic3ViIjoiamVmZnJ5Z29uemFsZXoiLCJqdGkiOiI5MWFmMTdkYyIsImF1ZCI6WyJodHRwOi8vbG9jYWxob3N0OjIwMzY5IiwiaHR0cHM6Ly9sb2NhbGhvc3Q6MCIsImh0dHA6Ly9sb2NhbGhvc3Q6MTMzNyJdLCJuYmYiOjE2OTY0NTg5OTcsImV4cCI6MTcwNDQwNzc5NywiaWF0IjoxNjk2NDU4OTk4LCJpc3MiOiJkb3RuZXQtdXNlci1qd3RzIn0._BUZJYckxXRF7YjKDPw_WT83shNwC6QNz33Y_GoG7bc
+
+
+### get all bugs for software
+GET 	{{host}}catalog/excel/bugs/
+Authorization: Bearer {{cert}}
+
+
